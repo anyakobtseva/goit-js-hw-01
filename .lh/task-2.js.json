@@ -1,0 +1,122 @@
+{
+    "sourceFile": "task-2.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 26,
+            "patches": [
+                {
+                    "date": 1697052286161,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1697052292875,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-f\n\\ No newline at end of file\n+function \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1697052312870,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-function \n\\ No newline at end of file\n+function getShippingMessage*\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1697052348541,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-function getShippingMessage*\n\\ No newline at end of file\n+function getShippingMessage(country)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1697052354426,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-function getShippingMessage(country)\n\\ No newline at end of file\n+function getShippingMessage(country, )\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1697052371309,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-function getShippingMessage(country, )\n\\ No newline at end of file\n+function getShippingMessage(country, price)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1697052386564,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-function getShippingMessage(country, price)\n\\ No newline at end of file\n+function getShippingMessage(country, price, deliveryFee)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1697052460389,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-function getShippingMessage(country, price, deliveryFee)\n\\ No newline at end of file\n+function getShippingMessage(country, price, deliveryFee)\n"
+                },
+                {
+                    "date": 1697052489298,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-function getShippingMessage(country, price, deliveryFee)\n+function getShippingMessage(country, price, deliveryFee){}\n"
+                },
+                {
+                    "date": 1697052498177,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,3 @@\n-function getShippingMessage(country, price, deliveryFee){}\n+function getShippingMessage(country, price, deliveryFee){\n+    ret\n+}\n"
+                },
+                {
+                    "date": 1697052507533,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n function getShippingMessage(country, price, deliveryFee){\n-    ret\n+    \n }\n"
+                },
+                {
+                    "date": 1697052527814,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,4 @@\n function getShippingMessage(country, price, deliveryFee){\n     \n+    \n }\n"
+                },
+                {
+                    "date": 1697052537537,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n function getShippingMessage(country, price, deliveryFee){\n     \n-    \n+    return~\n }\n"
+                },
+                {
+                    "date": 1697052542704,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n function getShippingMessage(country, price, deliveryFee){\n     \n-    return~\n+    return`Shipping to <country> will cost <totalPrice> credits`\n }\n"
+                },
+                {
+                    "date": 1697052870084,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n function getShippingMessage(country, price, deliveryFee){\n-    \n+    const totalPrice = quantity * pricePerDroid;\n     return`Shipping to <country> will cost <totalPrice> credits`\n }\n"
+                },
+                {
+                    "date": 1697052929294,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n function getShippingMessage(country, price, deliveryFee){\n-    const totalPrice = quantity * pricePerDroid;\n+    const totalPrice = quantity * deliveryFee;\n     return`Shipping to <country> will cost <totalPrice> credits`\n }\n"
+                },
+                {
+                    "date": 1697052940337,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n function getShippingMessage(country, price, deliveryFee){\n-    const totalPrice = quantity * deliveryFee;\n+    const totalPrice = price * deliveryFee;\n     return`Shipping to <country> will cost <totalPrice> credits`\n }\n"
+                },
+                {
+                    "date": 1697052995861,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n function getShippingMessage(country, price, deliveryFee){\n     const totalPrice = price * deliveryFee;\n-    return`Shipping to <country> will cost <totalPrice> credits`\n+    return`Shipping to  <country> will cost <totalPrice> credits`\n }\n"
+                },
+                {
+                    "date": 1697053005960,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n function getShippingMessage(country, price, deliveryFee){\n     const totalPrice = price * deliveryFee;\n-    return`Shipping to  <country> will cost <totalPrice> credits`\n+    return`Shipping to ${c} <country> will cost <totalPrice> credits`\n }\n"
+                },
+                {
+                    "date": 1697053012799,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n function getShippingMessage(country, price, deliveryFee){\n     const totalPrice = price * deliveryFee;\n-    return`Shipping to ${c} <country> will cost <totalPrice> credits`\n+    return`Shipping to ${country} will cost <totalPrice> credits`\n }\n"
+                },
+                {
+                    "date": 1697053019877,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n function getShippingMessage(country, price, deliveryFee){\n     const totalPrice = price * deliveryFee;\n-    return`Shipping to ${country} will cost <totalPrice> credits`\n+    return`Shipping to ${country} will cost $ credits`\n }\n"
+                },
+                {
+                    "date": 1697053032081,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n function getShippingMessage(country, price, deliveryFee){\n     const totalPrice = price * deliveryFee;\n-    return`Shipping to ${country} will cost $ credits`\n+    return`Shipping to ${country} will cost $() credits`\n }\n"
+                },
+                {
+                    "date": 1697053039648,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n function getShippingMessage(country, price, deliveryFee){\n     const totalPrice = price * deliveryFee;\n-    return`Shipping to ${country} will cost $() credits`\n+    return`Shipping to ${country} will cost ${t} credits`\n }\n"
+                },
+                {
+                    "date": 1697053069917,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n function getShippingMessage(country, price, deliveryFee){\n-    const totalPrice = price * deliveryFee;\n-    return`Shipping to ${country} will cost ${t} credits`\n+    const totalPrice = price  deliveryFee;\n+    return`Shipping to ${country} will cost ${totalPrice} credits`\n }\n"
+                },
+                {
+                    "date": 1697053076900,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n function getShippingMessage(country, price, deliveryFee){\n-    const totalPrice = price  deliveryFee;\n+    const totalPrice = price } deliveryFee;\n     return`Shipping to ${country} will cost ${totalPrice} credits`\n }\n"
+                },
+                {
+                    "date": 1697053102015,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n function getShippingMessage(country, price, deliveryFee){\n-    const totalPrice = price } deliveryFee;\n+    const totalPrice = price + deliveryFee;\n+    \n     return`Shipping to ${country} will cost ${totalPrice} credits`\n }\n"
+                },
+                {
+                    "date": 1697053164833,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,7 @@\n function getShippingMessage(country, price, deliveryFee){\n     const totalPrice = price + deliveryFee;\n-    \n+\n     return`Shipping to ${country} will cost ${totalPrice} credits`\n }\n+\n+\n"
+                }
+            ],
+            "date": 1697052286160,
+            "name": "Commit-0",
+            "content": "f"
+        }
+    ]
+}

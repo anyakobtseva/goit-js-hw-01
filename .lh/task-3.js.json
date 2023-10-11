@@ -1,0 +1,166 @@
+{
+    "sourceFile": "task-3.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 37,
+            "patches": [
+                {
+                    "date": 1697053527293,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1697053542404,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-f\n\\ No newline at end of file\n+function getElementWidth*\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1697053549228,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-function getElementWidth*\n\\ No newline at end of file\n+function getElementWidth()\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1697053575311,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-function getElementWidth()\n\\ No newline at end of file\n+function getElementWidth(content)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1697053598278,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-function getElementWidth(content)\n\\ No newline at end of file\n+function getElementWidth(content, padding)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1697053607446,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-function getElementWidth(content, padding)\n\\ No newline at end of file\n+function getElementWidth(content, padding, )\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1697053629481,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-function getElementWidth(content, padding, )\n\\ No newline at end of file\n+function getElementWidth(content, padding, border)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1697053635207,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-function getElementWidth(content, padding, border)\n\\ No newline at end of file\n+function getElementWidth(content, padding, border){}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1697053748768,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,4 @@\n-function getElementWidth(content, padding, border){}\n\\ No newline at end of file\n+function getElementWidth(content, padding, border){\n+\n+}\n+\n"
+                },
+                {
+                    "date": 1697054473034,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,7 @@\n function getElementWidth(content, padding, border){\n-\n+c\n }\n \n+console.log(getElementWidth(\"50px\", \"8px\", \"4px\")); // 74\n+console.log(getElementWidth(\"60px\", \"12px\", \"8.5px\")); // 101\n+console.log(getElementWidth(\"200px\", \"0px\", \"0px\")); // 200\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1697054483187,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n function getElementWidth(content, padding, border){\n-c\n+const\n }\n \n console.log(getElementWidth(\"50px\", \"8px\", \"4px\")); // 74\n console.log(getElementWidth(\"60px\", \"12px\", \"8.5px\")); // 101\n"
+                },
+                {
+                    "date": 1697054490083,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n function getElementWidth(content, padding, border){\n-const\n+const )\n }\n \n console.log(getElementWidth(\"50px\", \"8px\", \"4px\")); // 74\n console.log(getElementWidth(\"60px\", \"12px\", \"8.5px\")); // 101\n"
+                },
+                {
+                    "date": 1697054495352,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n function getElementWidth(content, padding, border){\n-const )\n+const \n }\n \n console.log(getElementWidth(\"50px\", \"8px\", \"4px\")); // 74\n console.log(getElementWidth(\"60px\", \"12px\", \"8.5px\")); // 101\n"
+                },
+                {
+                    "date": 1697054506455,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n function getElementWidth(content, padding, border){\n-const \n+const =Npx\n }\n \n console.log(getElementWidth(\"50px\", \"8px\", \"4px\")); // 74\n console.log(getElementWidth(\"60px\", \"12px\", \"8.5px\")); // 101\n"
+                },
+                {
+                    "date": 1697054523226,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n function getElementWidth(content, padding, border){\n-const =Npx\n+const border=Npx\n }\n \n console.log(getElementWidth(\"50px\", \"8px\", \"4px\")); // 74\n console.log(getElementWidth(\"60px\", \"12px\", \"8.5px\")); // 101\n"
+                },
+                {
+                    "date": 1697055424095,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n function getElementWidth(content, padding, border){\n-const border=Npx\n+cretu\n }\n \n console.log(getElementWidth(\"50px\", \"8px\", \"4px\")); // 74\n console.log(getElementWidth(\"60px\", \"12px\", \"8.5px\")); // 101\n"
+                },
+                {
+                    "date": 1697055429763,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n function getElementWidth(content, padding, border){\n-cretu\n+ret\n }\n \n console.log(getElementWidth(\"50px\", \"8px\", \"4px\")); // 74\n console.log(getElementWidth(\"60px\", \"12px\", \"8.5px\")); // 101\n"
+                },
+                {
+                    "date": 1697055434912,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n function getElementWidth(content, padding, border){\n-ret\n+return N\n }\n \n console.log(getElementWidth(\"50px\", \"8px\", \"4px\")); // 74\n console.log(getElementWidth(\"60px\", \"12px\", \"8.5px\")); // 101\n"
+                },
+                {
+                    "date": 1697055445834,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n function getElementWidth(content, padding, border){\n-return N\n+return Number()\n }\n \n console.log(getElementWidth(\"50px\", \"8px\", \"4px\")); // 74\n console.log(getElementWidth(\"60px\", \"12px\", \"8.5px\")); // 101\n"
+                },
+                {
+                    "date": 1697055462267,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n function getElementWidth(content, padding, border){\n-return Number()\n+return Number(content) \n }\n \n console.log(getElementWidth(\"50px\", \"8px\", \"4px\")); // 74\n console.log(getElementWidth(\"60px\", \"12px\", \"8.5px\")); // 101\n"
+                },
+                {
+                    "date": 1697055480876,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n function getElementWidth(content, padding, border){\n-return Number(content) \n+return Number(content) ]\n }\n \n console.log(getElementWidth(\"50px\", \"8px\", \"4px\")); // 74\n console.log(getElementWidth(\"60px\", \"12px\", \"8.5px\")); // 101\n"
+                },
+                {
+                    "date": 1697055487304,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n function getElementWidth(content, padding, border){\n-return Number(content) ]\n+return Number(content) +\n }\n \n console.log(getElementWidth(\"50px\", \"8px\", \"4px\")); // 74\n console.log(getElementWidth(\"60px\", \"12px\", \"8.5px\")); // 101\n"
+                },
+                {
+                    "date": 1697055495043,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n function getElementWidth(content, padding, border){\n-return Number(content) +\n+return Number(content) + 2}\n }\n \n console.log(getElementWidth(\"50px\", \"8px\", \"4px\")); // 74\n console.log(getElementWidth(\"60px\", \"12px\", \"8.5px\")); // 101\n"
+                },
+                {
+                    "date": 1697055502126,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n function getElementWidth(content, padding, border){\n-return Number(content) + 2}\n+return Number(content) + 2£\n }\n \n console.log(getElementWidth(\"50px\", \"8px\", \"4px\")); // 74\n console.log(getElementWidth(\"60px\", \"12px\", \"8.5px\")); // 101\n"
+                },
+                {
+                    "date": 1697055507871,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n function getElementWidth(content, padding, border){\n-return Number(content) + 2£\n+return Number(content) + 2\n }\n \n console.log(getElementWidth(\"50px\", \"8px\", \"4px\")); // 74\n console.log(getElementWidth(\"60px\", \"12px\", \"8.5px\")); // 101\n"
+                },
+                {
+                    "date": 1697055518431,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n function getElementWidth(content, padding, border){\n-return Number(content) + 2\n+return Number(content) + 2&\n }\n \n console.log(getElementWidth(\"50px\", \"8px\", \"4px\")); // 74\n console.log(getElementWidth(\"60px\", \"12px\", \"8.5px\")); // 101\n"
+                },
+                {
+                    "date": 1697055526552,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n function getElementWidth(content, padding, border){\n-return Number(content) + 2&\n+return Number(content) + 2_)(*)\n }\n \n console.log(getElementWidth(\"50px\", \"8px\", \"4px\")); // 74\n console.log(getElementWidth(\"60px\", \"12px\", \"8.5px\")); // 101\n"
+                },
+                {
+                    "date": 1697055533375,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n function getElementWidth(content, padding, border){\n-return Number(content) + 2_)(*)\n+return Number(content) + 2 *\n }\n \n console.log(getElementWidth(\"50px\", \"8px\", \"4px\")); // 74\n console.log(getElementWidth(\"60px\", \"12px\", \"8.5px\")); // 101\n"
+                },
+                {
+                    "date": 1697055539774,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n function getElementWidth(content, padding, border){\n-return Number(content) + 2 *\n+return Number(content) + 2 * Nu\n }\n \n console.log(getElementWidth(\"50px\", \"8px\", \"4px\")); // 74\n console.log(getElementWidth(\"60px\", \"12px\", \"8.5px\")); // 101\n"
+                },
+                {
+                    "date": 1697055544957,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n function getElementWidth(content, padding, border){\n-return Number(content) + 2 * Nu\n+return Number(content) + 2 * Number()\n }\n \n console.log(getElementWidth(\"50px\", \"8px\", \"4px\")); // 74\n console.log(getElementWidth(\"60px\", \"12px\", \"8.5px\")); // 101\n"
+                },
+                {
+                    "date": 1697055551731,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n function getElementWidth(content, padding, border){\n-return Number(content) + 2 * Number()\n+return Number(content) + 2 * Number(padding)\n }\n \n console.log(getElementWidth(\"50px\", \"8px\", \"4px\")); // 74\n console.log(getElementWidth(\"60px\", \"12px\", \"8.5px\")); // 101\n"
+                },
+                {
+                    "date": 1697055557085,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n function getElementWidth(content, padding, border){\n-return Number(content) + 2 * Number(padding)\n+return Number(content) + 2 * Number(padding) \n }\n \n console.log(getElementWidth(\"50px\", \"8px\", \"4px\")); // 74\n console.log(getElementWidth(\"60px\", \"12px\", \"8.5px\")); // 101\n"
+                },
+                {
+                    "date": 1697055563095,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n function getElementWidth(content, padding, border){\n-return Number(content) + 2 * Number(padding) \n+return Number(content) + 2 * Number(padding) + 2\n }\n \n console.log(getElementWidth(\"50px\", \"8px\", \"4px\")); // 74\n console.log(getElementWidth(\"60px\", \"12px\", \"8.5px\")); // 101\n"
+                },
+                {
+                    "date": 1697055568619,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n function getElementWidth(content, padding, border){\n-return Number(content) + 2 * Number(padding) + 2\n+return Number(content) + 2 * Number(padding) + 2 * N\n }\n \n console.log(getElementWidth(\"50px\", \"8px\", \"4px\")); // 74\n console.log(getElementWidth(\"60px\", \"12px\", \"8.5px\")); // 101\n"
+                },
+                {
+                    "date": 1697055576023,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n function getElementWidth(content, padding, border){\n-return Number(content) + 2 * Number(padding) + 2 * N\n+return Number(content) + 2 * Number(padding) + 2 * Number()\n }\n \n console.log(getElementWidth(\"50px\", \"8px\", \"4px\")); // 74\n console.log(getElementWidth(\"60px\", \"12px\", \"8.5px\")); // 101\n"
+                },
+                {
+                    "date": 1697055743728,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+function getElementWidth(content, padding, border){\n+return Number.(content) + 2 * Number(padding) + 2 * Number(border)\n+}\n+\n+console.log(getElementWidth(\"50px\", \"8px\", \"4px\")); // 74\n+console.log(getElementWidth(\"60px\", \"12px\", \"8.5px\")); // 101\n+console.log(getElementWidth(\"200px\", \"0px\", \"0px\")); // 200\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1697055755411,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,14 +1,7 @@\n function getElementWidth(content, padding, border){\n-return Number.(content) + 2 * Number(padding) + 2 * Number(border)\n+return Number.parseFloat(content) + 2 * Number.(padding) + 2 * Number(border)\n }\n \n console.log(getElementWidth(\"50px\", \"8px\", \"4px\")); // 74\n console.log(getElementWidth(\"60px\", \"12px\", \"8.5px\")); // 101\n-console.log(getElementWidth(\"200px\", \"0px\", \"0px\")); // 200\n-function getElementWidth(content, padding, border){\n-return Number(content) + 2 * Number(padding) + 2 * Number()\n-}\n-\n-console.log(getElementWidth(\"50px\", \"8px\", \"4px\")); // 74\n-console.log(getElementWidth(\"60px\", \"12px\", \"8.5px\")); // 101\n console.log(getElementWidth(\"200px\", \"0px\", \"0px\")); // 200\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1697055763792,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n function getElementWidth(content, padding, border){\n-return Number.parseFloat(content) + 2 * Number.(padding) + 2 * Number(border)\n+return Number.parseFloat(content) + 2 * Number.parseFloat(padding) + 2 * Number.(border)\n }\n \n console.log(getElementWidth(\"50px\", \"8px\", \"4px\")); // 74\n console.log(getElementWidth(\"60px\", \"12px\", \"8.5px\")); // 101\n"
+                }
+            ],
+            "date": 1697053527293,
+            "name": "Commit-0",
+            "content": "f"
+        }
+    ]
+}
